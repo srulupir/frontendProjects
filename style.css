@@ -1,0 +1,32 @@
+body{
+    background: #E5E5E5;
+}
+
+.registration{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    border-radius: 6px;
+    color: white;
+    border: none;
+    background: #6979F8;
+    width: 240px;
+    height: 48px;
+}
+
+input{
+    border-radius: 6px;
+    border: none;
+    width: 240px;
+    height: 48px;
+}
+button:hover {
+    border: 2px dotted darkblue;
+    color: darkblue;
+    background: rgba(0,0,0,0);
+}
