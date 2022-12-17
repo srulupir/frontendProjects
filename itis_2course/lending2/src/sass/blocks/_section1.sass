@@ -1,0 +1,186 @@
+.section1
+	align-items: center
+	text-align: center
+	justify-content: space-between
+	z-index: 1
+
+.section1__text
+	padding-top: 10%
+	align-items: center
+	justify-content: center
+	text-align: center
+
+.text_h1
+	margin-bottom: 20px
+	font-family: $fontPoppins
+	font-size: 64px
+	font-weight: bold
+	line-height: 1.4
+.text_p
+	padding-right: 33%
+	padding-left: 33%
+	line-height: 2
+	font-family: $fontInter
+	font-size: 18px
+	font-weight: 400
+
+.section1__blocks
+	margin-top: 3%
+	display: flex
+	align-items: center
+	justify-content: space-between
+	gap: 16px
+	width: 100%
+
+.section1__blocks1
+	margin-bottom: 10%
+	border-radius: 40px
+	height: 369px
+	weight: 268px
+	background-color: #7562e0
+	width: 100%
+	max-width: 500px
+	&:first-child
+		margin-left: 10%
+		background-color: #70d0dc
+	&:last-child
+		margin-right: 10%
+		background-color: #fa865f
+
+.section1__pic
+	z-index: 0
+	margin-bottom: -50px
+	float: left
+	height: 65%
+
+.section1__blocks__text
+	margin-top: 43%
+	margin-left: 9%
+	margin-right: 12%
+	h2
+		margin-bottom: 5%
+		float: left
+		z-index: 50
+		color: white
+		font-family: $fontPoppins
+		font-size: 32px
+		font-weight: 600
+		line-height: 1
+	p
+		margin-top: 3%
+		margin-left: -1px
+		float: left
+		opacity: 0.8
+		line-height: 1.4
+		color: white
+		font-family: $fontInter
+		font-size: 20px
+		font-weight: 400
+
+.header__line
+	position: relative
+	float: bottom
+.container1
+	position: relative
+	z-index: 1
+
+.header__note
+	&:first-child
+		margin-left: 20%
+
+	&:not(last-child)
+		margin-right: 10%
+
+	h2
+		font-family: $fontPoppins
+		font-size: 48px
+		margin-bottom: 10px
+		font-weight: 600
+
+	p
+		font-family: $fontInter
+		font-size: 18px
+		font-weight: 400
+
+.rocket_img
+	position: absolute
+	top: 1000px
+	left: 18%
+	display: block
+	width: 180px
+	height: auto
+	max-width: 100%
+	max-height: 100%
+
+
+@media screen and (min-width: 320px) and (max-width: 600px)
+	.section1__blocks__text
+		p
+			margin: 0px
+			margin-right: 5%
+	.container1
+		display: block
+	.header__note
+		margin-top: 10%
+		h2
+			margin-bottom: 5%
+		margin-bottom: 10%
+		&:first-child
+			margin-left: 0px
+		&:not(last-child)
+			margin-right: 0px
+@media screen and (min-width: 600px) and (max-width: 1120px)
+	.text_h1
+		font-size: 44px
+	.text_p
+		font-size: 14px
+	.section1__blocks1
+		margin-left: 0px
+		margin-right: 0px
+
+	.section1__blocks__text
+		text-align: center
+		h2
+			font-size: 20px
+		p
+			font-size: 16px
+	.section1__pic
+		height: 45%
+	.section1__blocks__text
+		margin: 10%
+		text-align: left
+
+@media screen and (min-width: 320px) and (max-width: 768px)
+	.section1__text
+		margin-left: 5%
+		margin-right: 5%
+		text-align: center
+	.text_h1
+		margin-top: -50%
+		font-size: 24px
+		margin: 0px
+	.text_p
+		font-size: 16px
+		padding: 5%
+	.section1__blocks
+		display: block
+	.section1__blocks1
+		height: 200px
+		width: 343px
+		text-align: left
+		display: block
+		h2
+			font-size: 20px
+		p
+			font-size: 16px
+		margin-right: 10%
+		align-items: center
+		&:first-child
+			margin-left: 0px
+			&:last-child
+				margin-right: -10%
+	.section1__blocks__text
+		margin: 0px
+		margin-left: 5%
+	.section1__blocks__pic
+		//height: 80%

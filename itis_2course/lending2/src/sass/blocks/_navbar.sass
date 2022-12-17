@@ -1,0 +1,57 @@
+.navbar
+	padding: 2%
+	padding-left: 10%
+	padding-right: 10%
+	font-size: 18px
+	font-weight: inherit
+	font-family: $fontInter
+	background-color: #fff8f2
+.nav__row
+	display: flex
+	justify-content: space-between
+	align-items: center
+.logo
+	width: 15%
+
+.nav-list
+	ul
+		display: flex
+	li
+		margin-right: 48px
+		&:last-child
+			margin-right: 0
+.navbar__button
+	display: flex
+.navbar__button--link
+	display:  inline-block
+	height: 60px
+	padding-right: 32px
+	padding-left: 32px
+	border-radius: 34px
+	background-color: #fff8f2
+	color: #ff553e
+	line-height: 28px
+
+@media screen and (min-width: 600px) and (max-width: 1050px)
+	.navbar
+		padding-right: 2%
+		font-size: 14px
+	.logo
+		width: 8%
+	.nav-list
+		margin-left: 5%
+		margin-right: 5%
+		li
+			margin-right: 5%
+	.nav__button
+		margin-left: 10%
+
+	.navbar__button
+		height: 40px
+		padding: 1%
+	.button
+		height: 30px
+@media screen and (min-width: 320px) and (max-width: 600px)
+	.navbar
+		padding-top: 5%
+		padding-left: 5%

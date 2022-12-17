@@ -1,0 +1,110 @@
+.footer__row
+	margin-right: 20%
+	margin-left: 20%
+.footer__content
+	align-items: center
+	justify-content: space-between
+	margin-top: 10%
+	display: flex
+.logo
+	display: block
+	max-height: 100%
+	max-width: 100%
+	width: 150px
+
+.footer__content__col
+	ul
+		font-size: 18px
+		font-weight: inherit
+		font-family: $fontInter
+		display: flex
+	li
+		margin-right: 15%
+		&:last-child
+			margin-right: 0
+
+.footer__content__icon
+	display: flex
+	gap: 25px
+
+.hr
+	margin-top: 5%
+	margin-bottom: 2%
+
+.footer__detail
+	display: flex
+	margin-bottom: 2%
+	justify-content: space-between
+.footer__detail__1
+	display: flex
+	gap: 20px
+
+
+@media screen and (min-width: 1120px) and (max-width: 1420px)
+	.footer__row
+		margin-left: 10%
+		margin-right: 10%
+@media screen and (min-width: 768px) and (max-width: 1120px)
+	.footer__row
+		margin-left: 10%
+		margin-right: 10%
+	.footer__content__col
+		ul
+			font-size: 14px
+		li
+			margin-right: 7%
+			&:last-child
+				margin-right: 0
+	.footer__detail
+		p
+			font-size: 14px
+@media screen and (min-width: 600px) and (max-width: 768px)
+	.footer__row
+		margin-left: 10%
+		margin-right: 10%
+	//.logo
+	//	width: 20%
+	.footer__content__col
+		ul
+			font-size: 12px
+		li
+			margin-right: 7%
+			&:last-child
+				margin-right: 0
+	.footer__detail
+		p
+			font-size: 12px
+
+@media screen and (min-width: 360px) and (max-width: 600px)
+	.footer__row
+		margin-left: 10%
+		margin-right: 10%
+	.footer__content
+		display: block
+	.footer__content__col
+		display: block
+	.logo
+		width: 30%
+		margin-bottom: 5%
+	.footer__content__col
+		display: block
+		ul
+			font-size: 12px
+		li
+			margin-right: 7%
+			&:last-child
+				margin-right: 0
+	.hr
+		display: none
+	.footer__content__icon
+		margin-top: 5%
+		margin-bottom: 5%
+	.footer__detail
+		opacity: 70%
+		p
+			font-size: 14px
+		display: block
+	.footer__detail__1
+		p
+			margin-bottom: 5%
+		display: block

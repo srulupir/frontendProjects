@@ -1,0 +1,150 @@
+.section4
+	box-sizing: border-box
+.section4__row
+	align-items: center
+	text-align: center
+.section4__text
+	margin-bottom: 54px
+	h2
+		margin-bottom: 1%
+		margin-top: 7%
+.section4__block__switch
+	display: flex
+	text-align: center
+	justify-content: center
+	gap: 5%
+	margin-bottom: 70px
+.section4__block__card
+	display: flex
+	align-items: center
+	justify-content: center
+	gap: 30px
+.card
+	border-radius: 110px
+	width: 470px
+	height: 608px
+.card__text
+	margin: 15%
+	h3
+		margin: 10%
+.button4_1
+	margin-top: 30%
+	float: bottom
+.button4_2
+	margin-top: 30%
+	float: bottom
+	background-color: white
+	color: #ff553e
+.section4__block__card__1
+	h2
+		color: black
+	background-color: white
+	border: 1px solid #ff553e
+	color: #ff553e
+.section4__block__card__2
+	background-color: #ff553e
+	h3
+		color: white
+	h2
+		color: white
+.switch
+	position: relative
+	display: inline-block
+	width: 84px
+	height: 40px
+
+.switch input
+	display: none
+
+.slider
+	position: absolute
+	cursor: pointer
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-color: #ffddd8
+	-webkit-transition: .4s
+	transition: .4s
+
+
+.slider:before
+	position: absolute
+	content: ""
+	height: 28px
+	width: 28px
+	right: 4px
+	top: 4px
+	left: 4px
+	bottom: 4px
+	background-color: #ff553e
+	-webkit-transition: .4s
+	transition: .4s
+
+input:checked + .slider:before
+	-webkit-transform: translateX(40px)
+	-ms-transform: translateX(40px)
+	transform: translateX(40px)
+
+.slider.round
+	border-radius: 20px
+
+.slider.round:before
+	border-radius: 50%
+@media screen and (min-width: 1120px) and (max-width: 1420px)
+	.section4
+		h2
+			font-size: 32px
+		p
+			font-size: 14px
+		h3
+			font-size: 20px
+@media screen and (min-width: 768px) and (max-width: 1120px)
+	.section4
+		h2
+			font-size: 28px
+		p
+			font-size: 14px
+		h3
+			font-size: 20px
+@media screen and (min-width: 360px) and (max-width: 768px)
+	.section4
+		h2
+			font-size: 28px
+		p
+			font-size: 14px
+		h3
+			font-size: 20px
+	.section4__text
+		margin-bottom: 5%
+		margin-left: 5%
+		margin-right: 5%
+	.section4__block__switch
+		margin-bottom: 5%
+	.section4__block__card
+		margin-left: 5%
+		margin-right: 5%
+		display: block
+	.card
+		margin: 0px
+	.section4__block__card__1
+		margin-right: 0px
+		margin-left: 0px
+
+	.card
+		display: block
+		margin-left: auto
+		margin-right: auto
+		border-radius: 30px
+		width: 288px
+		height: 327px
+	.card__text
+		margin: 0px
+		margin-top: 10%
+		margin-left: 10%
+		text-align: left
+		h3
+			margin: 0px
+			margin-top: 5%
+
+
